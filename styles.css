@@ -193,9 +193,13 @@ p {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 0.2fr;
   max-width: fit-content;
-  /* width: clamp(200px, 20vw, fit-content); */
+  width: clamp(200px, 20vw, fit-content);
   margin: 49vh auto;
   font-family: "Rubik", Arial, Helvetica, sans-serif;
+}
+
+.cell {
+  min-width: 75px;
 }
 
 .cell-1 {
